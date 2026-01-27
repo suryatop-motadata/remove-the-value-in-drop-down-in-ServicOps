@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "ServiceOps Option Auto Filler",
+  "version": "1.0",
+  "description": "Auto add/remove dropdown options in ServiceOps",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
